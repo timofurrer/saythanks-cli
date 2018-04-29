@@ -21,7 +21,7 @@ from setuptools import setup, Command
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
+with codecs.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = '\n' + f.read()
 
 
@@ -31,6 +31,7 @@ if sys.argv[-1] == "publish":
 
 required = [
     'click',
+    'requests'
 ]
 
 
@@ -80,7 +81,7 @@ setup(
     py_modules=['saythanks_cli'],
     entry_points={
         'console_scripts': [
-            'thx = saythanks_cli:main'
+            'thx = saythanks_cli:cli'
     ]},
     license='MIT',
     classifiers=(
