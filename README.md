@@ -3,7 +3,6 @@
 Say Thanks via CLI!
 
 Do you know about @kennethreitz's [saythanks.io](https://saythanks.io) project?
-
 It's awesome and you should use it more often!
 
 ... And that's exactly why this little CLI tool exists:
