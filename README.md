@@ -6,8 +6,9 @@ Do you know about @kennethreitz's [saythanks.io](https://saythanks.io) project?
 
 It's awesome and you should use it more often!
 
-... And that's exactly why this little CLI tool exists: Use it to conviniently *say thanks* to other people
-without leaving the terminal! :tada:
+... And that's exactly why this little CLI tool exists:
+
+Use it to conviniently *say thanks* to other people without leaving the terminal! :tada:
 
 ```
 python3 -m pip install saythanks-cli
