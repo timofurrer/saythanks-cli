@@ -10,13 +10,13 @@ It's awesome and you should use it more often!
 
 Use it to conviniently *say thanks* to other people without leaving the terminal! :tada:
 
-```
+```bash
 python3 -m pip install saythanks-cli
 ```
 
 Say thanks:
 
-```
+```bash
 echo 'Request is soo great! Thanks.' | thx kennethreitz
 ```
 
